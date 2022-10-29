@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
     display: block;
     text-align: right;
 }
-.matrix img {
+.matrix-img {
     width: 100%;
 }
 .matrix .more-inf {
@@ -34,7 +34,7 @@ body {
 .task-row_wrapper {
     display: flex;
 }
-ul {
+.list {
     margin:0;
     padding: 0px;
 }
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through
     color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type="text"] {
     display:none
 }
 
-ul li.edit-mode input[type="text"] {
+.edit-mode input[type="text"] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+.edit-mode label {
     display:none;
 }
