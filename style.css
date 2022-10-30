@@ -69,7 +69,7 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.text-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,16 +81,16 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.text-input:focus {
     color: #333;
 }
 
 /* New Task */
-label[for='new-task'] {
+.new-task {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 
@@ -120,12 +120,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px;
 }
-button.delete img {
+.img-button_delete {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.img-button_delete:hover {
     transform: rotateZ(0);
 }
 
@@ -140,11 +140,11 @@ ul li input[type="text"] {
     display: none;
 }
 
-.edit-mode input[type="text"] {
+.edit-mode_input[type="text"] {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode label {
+.edit-mode_label {
     display: none;
 }
